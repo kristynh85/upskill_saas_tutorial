@@ -34,6 +34,13 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 #User Devise for user authentication
 gem 'devise', '4.4.0'
+
+#Use Stripe for payment processing
+gem 'stripe', '~> 7.1'
+
+#Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.13'
